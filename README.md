@@ -1,4 +1,4 @@
-# Virtus : a simple command-line interface to serve HTML files written in Go 
+# Virtus - a simple command-line interface to serve HTML files written in Go 
 
 
 virtus is a simple web server for serving static html files.<br />
@@ -31,9 +31,11 @@ Flags:
   
   # Examples 
   Example 1: Start a server and serve a HTML file on port 8080
-  
+ ```diff
   virtus run --file index.html
-  
+ ```
    Example 2: Check current version you're running
-   
+   ```diff
    virtus version
+ ```
+
