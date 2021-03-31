@@ -3,6 +3,37 @@
 
 virtus is a simple web server for serving static html files.<br />
 
-Github https://github.com/Szafa99/Virtus 
+Github: https://github.com/Szafa99/Virtus 
 
 # Features 
+
+Serving a static HTML file on a web server
+
+
+# Instalation
+Use the command belowe to install go
+
+got get -u github.com/Szafa99/virtus/cmd
+
+
+# Available Commands:
+  help        Help about any command
+  run         Serve a html file on the server
+  version     Check virtus version
+
+Flags:
+  -h, --help   help for virtus
+  
+ run
+  Flags:
+  -f, --file string   path to html file
+  -h, --help          help for run
+  
+  # Examples 
+  Example 1: Start a server and serve a HTML file on port 8080
+  
+  virtus run --file index.html
+  
+   Example 2: Check current version you're running
+   
+   virtus version
