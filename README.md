@@ -17,17 +17,23 @@ got get -u github.com/Szafa99/virtus/cmd
 
 
 # Available Commands:
+ ```diff
+Available Commands
   help        Help about any command
   run         Serve a html file on the server
   version     Check virtus version
 
+
 Flags:
   -h, --help   help for virtus
-  
- run
+ ```
+ run flags
+ ```diff
+  run
   Flags:
   -f, --file string   path to html file
   -h, --help          help for run
+  ```
   
   # Examples 
   Example 1: Start a server and serve a HTML file on port 8080
