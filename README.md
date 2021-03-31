@@ -12,9 +12,9 @@ Serving a static HTML file on a web server
 
 # Instalation
 Use the command below to install virtus
-
+```dif
 got get -u github.com/Szafa99/virtus/cmd
-
+```
 
 # Available Commands:
  ```diff
