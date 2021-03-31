@@ -11,7 +11,7 @@ Serving a static HTML file on a web server
 
 
 # Instalation
-Use the command belowe to install go
+Use the command below to install virtus
 
 got get -u github.com/Szafa99/virtus/cmd
 
